@@ -23,7 +23,6 @@ func PrintSlice2D(slice [][]int) {
 		}
 		fmt.Println()
 	}
-	fmt.Println()
 }
 
 func PrintSlice2DStr(slice [][]string) {
@@ -33,5 +32,4 @@ func PrintSlice2DStr(slice [][]string) {
 		}
 		fmt.Println()
 	}
-	fmt.Println()
 }
