@@ -18,7 +18,7 @@ func PrintSlice1DStr(slice []string) {
 
 func PrintSlice2D(slice [][]int) {
 	for i := 0; i < len(slice); i++ {
-		for j := 0; j < len(slice); j++ {
+		for j := 0; j < len(slice[i]); j++ {
 			if slice[i][j] == 0 {
 				fmt.Print(" \t")
 			} else {
@@ -31,7 +31,7 @@ func PrintSlice2D(slice [][]int) {
 
 func PrintSlice2DStr(slice [][]string) {
 	for i := 0; i < len(slice); i++ {
-		for j := 0; j < len(slice); j++ {
+		for j := 0; j < len(slice[i]); j++ {
 			fmt.Print(slice[i][j], "\t")
 		}
 		fmt.Println()
